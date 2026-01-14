@@ -625,12 +625,12 @@
       "Navigation_Unit"
     ],
     [
-      "21c15db4-fcc2-43e2-90c6-38347e6b80b5",
-      "Navigation_Peripherals"
-    ],
-    [
       "c8fc8e69-bb49-4956-91d7-091fbd48c0bc",
       "Flight_Control_Unit"
+    ],
+    [
+      "21c15db4-fcc2-43e2-90c6-38347e6b80b5",
+      "Navigation_Peripherals"
     ],
     [
       "2b3e482d-66cf-439d-9529-121b0ac868e2",
