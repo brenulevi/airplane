@@ -6357,7 +6357,7 @@
 			)
 		)
 	)
-	(global_label "FCU_TIM1_CH2"
+	(global_label "FCU_TIM1_CH1"
 		(shape input)
 		(at 172.72 62.23 180)
 		(fields_autoplaced yes)

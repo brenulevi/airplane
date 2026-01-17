@@ -8,7 +8,7 @@
 - I2C2: Peripherals (PWM Driver, EEPROM)
 
 - TIM3: Actuators (CH1 Ailerons, CH2 Elevator, CH3 Rudder, CH4 Flaps)
-- TIM1: Propulsions (CH2 ESC1, CH3 ESC2)
+- TIM1: Propulsions (CH1 ESC1, CH3 ESC3)
 
 - SPI1: Peripherals (Flash)
 
@@ -18,6 +18,10 @@
 
 - GPIOA, GPIOC, GPIOE: Comm with NU (Output)
 - GPIOB, GPIOD, GPIOF: Comm with NU (Input)
+
+- DFU_USB_DP
+- DFU_USB_DM
+- DFU_USB_VBUS
 
 # NU
 - UART1: Comm with FCU
@@ -40,3 +44,6 @@
 
 - GPIOA, GPIOC, GPIOE: Comm with NU (Input)
 - GPIOB, GPIOD, GPIOF: Comm with NU (Output)
+
+- DFU_USB_DP
+- DFU_USB_DM

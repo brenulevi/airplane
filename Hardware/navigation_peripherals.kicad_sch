@@ -5825,28 +5825,6 @@
 			)
 		)
 	)
-	(global_label "NU_UART5_RX"
-		(shape input)
-		(at 138.43 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "384d9217-9398-4610-8936-eeb26c938d9b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.5029 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NU_I2C3_SDA"
 		(shape input)
 		(at 165.1 97.79 180)
@@ -5860,28 +5838,6 @@
 		(uuid "3a57551d-427f-40ba-851e-3ec394d44250")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 149.6567 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NU_UART5_TX"
-		(shape input)
-		(at 138.43 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3c9a6502-d28c-4f97-bae4-6d2db914bc42")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.8053 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7367,73 +7323,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 138.43 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4459bfc7-0461-4264-ae02-5a5552696527")
-		(property "Reference" "#PWR053"
-			(at 142.24 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 134.62 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 138.43 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6abe4de4-9330-41ae-a2f8-69510d1b9b99")
-		)
-		(instances
-			(project ""
-				(path "/8dc22ddc-eb0a-4b80-a714-26a959e826d2/21c15db4-fcc2-43e2-90c6-38347e6b80b5"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 248.92 134.62 0)
 		(unit 1)
@@ -8384,81 +8273,6 @@
 			(project ""
 				(path "/8dc22ddc-eb0a-4b80-a714-26a959e826d2/21c15db4-fcc2-43e2-90c6-38347e6b80b5"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 143.51 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82ec44a8-13c5-4046-94ca-48d839a7377f")
-		(property "Reference" "J4"
-			(at 146.05 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 146.05 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 143.51 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1b2d35ac-afc8-4703-ab8a-45a3a785f8b1")
-		)
-		(pin "1"
-			(uuid "e28122e2-1a2a-447c-a4b3-1eb2ae69ad1b")
-		)
-		(pin "4"
-			(uuid "84c7caee-55fa-43b1-b7f6-508d5ee09768")
-		)
-		(pin "3"
-			(uuid "fa383ad1-8eaf-4e26-802c-6c79f12a3a3a")
-		)
-		(instances
-			(project "aircraft"
-				(path "/8dc22ddc-eb0a-4b80-a714-26a959e826d2/21c15db4-fcc2-43e2-90c6-38347e6b80b5"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9602,73 +9416,6 @@
 			(project "aircraft"
 				(path "/8dc22ddc-eb0a-4b80-a714-26a959e826d2/21c15db4-fcc2-43e2-90c6-38347e6b80b5"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab8bfb6e-c460-4f49-8a2d-964309fa9db3")
-		(property "Reference" "#PWR054"
-			(at 132.08 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e7025cb-307c-4840-880b-e429246906d8")
-		)
-		(instances
-			(project ""
-				(path "/8dc22ddc-eb0a-4b80-a714-26a959e826d2/21c15db4-fcc2-43e2-90c6-38347e6b80b5"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)

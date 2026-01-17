@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Flight Control Unit")
-		(rev "0.1.0")
+		(rev "0.1.1")
 		(company "Breno Soares Alves")
 	)
 	(lib_symbols
