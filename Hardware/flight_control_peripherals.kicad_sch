@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Flight Control Unit - Peripherals")
-		(rev "0.1.0")
+		(rev "0.1.2")
 		(company "Breno Soares Alves")
 	)
 	(lib_symbols
@@ -4390,6 +4390,17 @@
 		)
 		(uuid "0f1f85ce-df31-425c-be77-add636ac7776")
 	)
+	(text "Pin 9 and 11 are for ESC PWM and don't need to supply\nbecause ESC BEC already do it"
+		(exclude_from_sim no)
+		(at 136.144 40.386 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c004a13-820e-42e7-be15-6e1da77cddb6")
+	)
 	(text "Radio / Camera Connectors"
 		(exclude_from_sim no)
 		(at 124.714 84.582 0)
@@ -4524,12 +4535,6 @@
 		(uuid "32382612-a49d-4e19-b3eb-832bb5c5007b")
 	)
 	(junction
-		(at 161.29 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ca4329a-f5c8-464a-a6fa-fece867ea2a1")
-	)
-	(junction
 		(at 161.29 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4558,12 +4563,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "512a54e7-e7aa-423b-aecc-29011625eb59")
-	)
-	(junction
-		(at 161.29 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b517f96-3cad-46c2-acc5-7685ee272a2f")
 	)
 	(junction
 		(at 210.82 49.53)
@@ -4734,6 +4733,14 @@
 	(no_connect
 		(at 207.01 114.3)
 		(uuid "91438add-f283-4376-a9a8-ca7666e0c7f3")
+	)
+	(no_connect
+		(at 162.56 85.09)
+		(uuid "a758dc67-9727-4799-9136-7366a60043fa")
+	)
+	(no_connect
+		(at 162.56 87.63)
+		(uuid "a79b8ee7-7a43-497e-ab18-4a49d64bea72")
 	)
 	(no_connect
 		(at 257.81 49.53)
@@ -5027,16 +5034,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 82.55) (xy 161.29 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4973a436-f69f-4086-8110-3405da4e9889")
-	)
-	(wire
-		(pts
 			(xy 257.81 54.61) (xy 260.35 54.61)
 		)
 		(stroke
@@ -5054,16 +5051,6 @@
 			(type default)
 		)
 		(uuid "4b83d264-28ca-47e2-92e0-5eab9d1a66c7")
-	)
-	(wire
-		(pts
-			(xy 161.29 87.63) (xy 162.56 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d635aec-5db0-40dd-93e1-61ecf3817a61")
 	)
 	(wire
 		(pts
@@ -5414,16 +5401,6 @@
 			(type default)
 		)
 		(uuid "92a12ebb-c83c-495e-8001-5fe8a19e2909")
-	)
-	(wire
-		(pts
-			(xy 161.29 85.09) (xy 162.56 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "952d03d8-5c27-4395-a4db-a8a0ff19d99f")
 	)
 	(wire
 		(pts
@@ -5874,16 +5851,6 @@
 			(type default)
 		)
 		(uuid "ea39c611-9bf1-4e7a-8295-0bb01d78d9cb")
-	)
-	(wire
-		(pts
-			(xy 161.29 85.09) (xy 161.29 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecd5e538-29d1-4e85-8901-6306798b3692")
 	)
 	(wire
 		(pts
@@ -7292,7 +7259,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 177.8 57.15 0)
 			(effects
 				(font
@@ -7374,7 +7341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.902 111.76 90)
 			(effects
 				(font
@@ -7509,7 +7476,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 52.07 62.23 0)
 			(effects
 				(font
@@ -7818,7 +7785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 96.012 111.76 90)
 			(effects
 				(font
@@ -7952,7 +7919,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 133.35 74.93 0)
 			(effects
 				(font
@@ -8159,7 +8126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
 			(at 281.94 106.68 0)
 			(effects
 				(font
@@ -8798,7 +8765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
 			(at 167.64 80.01 0)
 			(effects
 				(font
@@ -8896,7 +8863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 			(at 76.2 62.23 0)
 			(effects
 				(font
@@ -9220,7 +9187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "W25N01GVZEIG_TR:SON127P800X600X80-9N"
+		(property "Footprint" "Aircraft_Footprints:SON127P800X600X80-9N"
 			(at 73.66 114.3 0)
 			(effects
 				(font
@@ -9840,7 +9807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 133.35 58.42 0)
 			(effects
 				(font

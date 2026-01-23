@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Flight Control Unit")
-		(rev "0.1.1")
+		(rev "0.1.2")
 		(company "Breno Soares Alves")
 	)
 	(lib_symbols
@@ -6661,7 +6661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 186.69 104.14 0)
 			(effects
 				(font
@@ -7333,7 +7333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aircraft_Footprints:SW_SKRPACE010"
 			(at 238.76 87.63 0)
 			(effects
 				(font
@@ -7710,7 +7710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
 			(at 157.48 64.77 0)
 			(effects
 				(font
