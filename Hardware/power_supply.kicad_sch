@@ -2798,6 +2798,12 @@
 		(uuid "59eb5b51-000b-472a-a772-527fe758cb9e")
 	)
 	(junction
+		(at 158.75 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cda7a2d-7107-4a85-a971-af8d78c6f2c3")
+	)
+	(junction
 		(at 43.18 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2814,12 +2820,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74c86f82-a26f-49e1-b779-576fb7f73010")
-	)
-	(junction
-		(at 43.18 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a70a053-039e-4d0e-b533-656114e63d6d")
 	)
 	(junction
 		(at 138.43 177.8)
@@ -3041,16 +3041,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 101.6) (xy 144.78 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "121679f6-0258-411a-860e-d3956ec0771d")
-	)
-	(wire
-		(pts
 			(xy 175.26 40.64) (xy 176.53 40.64)
 		)
 		(stroke
@@ -3111,16 +3101,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 106.68) (xy 144.78 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c533ac8-22d4-45c2-adbe-d9632336aa28")
-	)
-	(wire
-		(pts
 			(xy 243.84 114.3) (xy 243.84 116.84)
 		)
 		(stroke
@@ -3151,16 +3131,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 104.14) (xy 144.78 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21429ed3-3fb4-4f33-9fb4-f19809e7c665")
-	)
-	(wire
-		(pts
 			(xy 64.77 158.75) (xy 64.77 160.02)
 		)
 		(stroke
@@ -3168,16 +3138,6 @@
 			(type default)
 		)
 		(uuid "216380c1-c718-4ecf-8760-0443136f718c")
-	)
-	(wire
-		(pts
-			(xy 43.18 106.68) (xy 43.18 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2768f3ad-dee2-47fb-a027-c95f6908affe")
 	)
 	(wire
 		(pts
@@ -3208,6 +3168,16 @@
 			(type default)
 		)
 		(uuid "2c7b9776-f560-42ac-8a5b-b4f16ad4dfc2")
+	)
+	(wire
+		(pts
+			(xy 160.02 107.95) (xy 158.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de6206b-4412-4d00-a9a3-b8e16bea147c")
 	)
 	(wire
 		(pts
@@ -3281,7 +3251,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 114.3) (xy 43.18 118.11)
+			(xy 53.34 114.3) (xy 53.34 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3471,6 +3441,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 107.95) (xy 158.75 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5751f119-010e-4e72-adbb-385bbcf452cb")
+	)
+	(wire
+		(pts
 			(xy 146.05 124.46) (xy 146.05 121.92)
 		)
 		(stroke
@@ -3571,16 +3551,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 99.06) (xy 144.78 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70f6bddb-86c2-4fc0-931b-2d342ea7bded")
-	)
-	(wire
-		(pts
 			(xy 255.27 105.41) (xy 261.62 105.41)
 		)
 		(stroke
@@ -3618,16 +3588,6 @@
 			(type default)
 		)
 		(uuid "74dad1bc-9ba6-4522-927f-37a8c526a6ff")
-	)
-	(wire
-		(pts
-			(xy 190.5 105.41) (xy 190.5 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "767e2083-0b49-4a78-bf76-8b460a3822f9")
 	)
 	(wire
 		(pts
@@ -3698,6 +3658,16 @@
 			(type default)
 		)
 		(uuid "7de7aa6b-9e5b-47a0-9fd1-f09bba1f3f25")
+	)
+	(wire
+		(pts
+			(xy 158.75 99.06) (xy 158.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb70bd6-3809-44cf-b939-33f253259795")
 	)
 	(wire
 		(pts
@@ -3851,6 +3821,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 96.52) (xy 191.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e3d433-ee20-4db4-9de7-bf977b0258da")
+	)
+	(wire
+		(pts
 			(xy 147.32 116.84) (xy 144.78 116.84)
 		)
 		(stroke
@@ -3868,16 +3848,6 @@
 			(type default)
 		)
 		(uuid "9868a287-5698-4a89-a4df-dc220876aa36")
-	)
-	(wire
-		(pts
-			(xy 190.5 96.52) (xy 189.23 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99063ca8-2754-4d1c-a836-70bf5bce0db9")
 	)
 	(wire
 		(pts
@@ -3991,6 +3961,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 96.52) (xy 160.02 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae94f448-5b1d-4428-b1af-433df48d9799")
+	)
+	(wire
+		(pts
 			(xy 147.32 93.98) (xy 147.32 87.63)
 		)
 		(stroke
@@ -4091,13 +4071,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 105.41) (xy 203.2 105.41)
+			(xy 190.5 105.41) (xy 190.5 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bba898d4-377d-4e05-9c17-0a8e08476282")
+		(uuid "be1c572c-f267-46c3-90e7-04f5cc607c55")
 	)
 	(wire
 		(pts
@@ -4188,6 +4168,16 @@
 			(type default)
 		)
 		(uuid "cac28b4c-406f-43e0-9677-3644403e6b8e")
+	)
+	(wire
+		(pts
+			(xy 190.5 105.41) (xy 203.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb054ac-388e-41d7-a46d-f30c4809a81b")
 	)
 	(wire
 		(pts
@@ -4301,16 +4291,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 114.3) (xy 53.34 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7be0090-ce5d-417c-b078-6e4e7643eae2")
-	)
-	(wire
-		(pts
 			(xy 152.4 50.8) (xy 154.94 50.8)
 		)
 		(stroke
@@ -4381,7 +4361,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 96.52) (xy 160.02 96.52)
+			(xy 151.13 96.52) (xy 158.75 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4517,29 +4497,29 @@
 	)
 	(global_label "PS_CS"
 		(shape input)
-		(at 189.23 96.52 180)
+		(at 191.77 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "309d265b-762a-40f2-8c4d-f6436192b1bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.3182 96.52 0)
+			(at 200.6818 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "PS_EN"
 		(shape input)
-		(at 147.32 101.6 0)
+		(at 144.78 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4549,7 +4529,7 @@
 		)
 		(uuid "33f677a1-bb4b-4707-8219-cf2401de4a59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.2318 101.6 0)
+			(at 153.6918 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4739,7 @@
 	)
 	(global_label "PS_PG"
 		(shape input)
-		(at 147.32 104.14 0)
+		(at 144.78 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4769,7 +4749,7 @@
 		)
 		(uuid "9efc9519-0a8d-42ef-978c-ae4f23a57cae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.2923 104.14 0)
+			(at 153.7523 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +4805,7 @@
 	)
 	(global_label "PS_PVIN"
 		(shape input)
-		(at 147.32 99.06 0)
+		(at 144.78 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4835,7 +4815,7 @@
 		)
 		(uuid "ba3f046e-62a4-41ca-9e2d-708e1ec5a079")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.0462 99.06 0)
+			(at 155.5062 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,7 +4871,7 @@
 	)
 	(global_label "PS_FB"
 		(shape input)
-		(at 147.32 106.68 0)
+		(at 144.78 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4901,7 +4881,7 @@
 		)
 		(uuid "de420b63-8d09-4bc3-b806-884f25618c5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.1109 106.68 0)
+			(at 153.5709 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5047,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 118.11 0)
+		(at 53.34 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5076,7 +5056,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a35416f-e821-4088-a92d-6f353fff5972")
 		(property "Reference" "#PWR01"
-			(at 43.18 124.46 0)
+			(at 53.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5065,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 123.19 0)
+			(at 53.34 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,7 +5073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 118.11 0)
+			(at 53.34 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +5082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 118.11 0)
+			(at 53.34 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,7 +5091,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 118.11 0)
+			(at 53.34 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,6 +5180,93 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 158.75 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "118e6540-73a9-4b86-b00e-737fd174ed1f")
+		(property "Reference" "C27"
+			(at 161.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 159.7152 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic capacitor, 2.2 µF, 50 V, X7R"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kyocera-avx/08053C225KAT2A/2136279"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "08053C225KAT2A"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85183787-0441-4254-817e-8596d33b845d")
+		)
+		(pin "1"
+			(uuid "26f6a5c7-3825-4d8c-9d2d-a894afc8d908")
+		)
+		(instances
+			(project "aircraft"
+				(path "/8dc22ddc-eb0a-4b80-a714-26a959e826d2/39a9e851-414a-49a1-b5c9-24c58b61cca2"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 99.06 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5226,7 +5293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 100.0252 93.98 0)
 			(effects
 				(font
@@ -5244,7 +5311,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 2.2 µF, 50 V, X7R"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kyocera-avx/08053C225KAT2A/2136279"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "08053C225KAT2A"
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -5363,7 +5448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 220.472 110.49 90)
 			(effects
 				(font
@@ -5381,7 +5466,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 6.8 kΩ, 5 %"
+			(at 222.25 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603JR-076K8L/726813"
+			(at 222.25 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-076K8L"
 			(at 222.25 110.49 0)
 			(effects
 				(font
@@ -5430,7 +5533,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 53.34 49.53 0)
 			(effects
 				(font
@@ -5448,7 +5551,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "T-Deans female connector"
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com/en/products/detail/sparkfun-electronics/11864/6818769?msockid=39073b2f1ae86ea81d942d8a1b146f9a"
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "11864"
 			(at 53.34 49.53 0)
 			(effects
 				(font
@@ -5527,6 +5648,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/texas-instruments/ina226aidgst/2688425"
+			(at 165.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "INA226AIDGST"
+			(at 165.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "bcd14e8c-bb49-467a-9749-4baae7e4c9f0")
 		)
@@ -5592,7 +5731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 255.27 92.71 0)
 			(effects
 				(font
@@ -5610,7 +5749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green LED, SMD"
 			(at 255.27 92.71 0)
 			(effects
 				(font
@@ -5620,6 +5759,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 255.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/liteon/LTST-S270KGKT/386893"
+			(at 255.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-S270KGKT"
 			(at 255.27 92.71 0)
 			(effects
 				(font
@@ -5736,7 +5893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 60.96 100.838 90)
 			(effects
 				(font
@@ -5754,8 +5911,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10 kΩ, 1 %, 0.1 W"
 			(at 60.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 60.96 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 60.96 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +5981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
 			(at 244.8052 114.3 0)
 			(effects
 				(font
@@ -5824,7 +5999,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Aluminum polymer capacitor, 100 µF, 35 V, low ESR (input bulk)"
+			(at 243.84 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kemet/A768EB107M1ELAS036/13420071"
+			(at 243.84 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "A768EB107M1ELAS036"
 			(at 243.84 110.49 0)
 			(effects
 				(font
@@ -5876,7 +6069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 139.3952 176.53 0)
 			(effects
 				(font
@@ -5894,7 +6087,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 10 µF, 25 V, X7R"
+			(at 138.43 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL21B106KPQNNNE/3887422"
+			(at 138.43 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B106KPQNNNE"
 			(at 138.43 172.72 0)
 			(effects
 				(font
@@ -5962,7 +6173,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, 40 V, 350 mA"
+			(at 163.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/evvo/sd103aws/21407183"
+			(at 163.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SD103AWS"
 			(at 163.83 96.52 0)
 			(effects
 				(font
@@ -6014,7 +6243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 220.472 120.65 90)
 			(effects
 				(font
@@ -6032,7 +6261,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 1.3 kΩ, 5 %"
+			(at 222.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603JR-071K3L/726686"
+			(at 222.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-071K3L"
 			(at 222.25 120.65 0)
 			(effects
 				(font
@@ -6169,7 +6416,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 560 Ω, 1 %"
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stackpole-electronics-inc/RMCF0603FT560R/1760872"
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT560R"
 			(at 261.62 99.06 0)
 			(effects
 				(font
@@ -6221,7 +6486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 149.352 91.44 90)
 			(effects
 				(font
@@ -6239,7 +6504,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10 kΩ, 1 %, 0.1 W"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 151.13 91.44 0)
 			(effects
 				(font
@@ -6282,7 +6565,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2m"
+		(property "Value" "10m"
 			(at 146.05 53.3399 0)
 			(effects
 				(font
@@ -6291,7 +6574,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 145.288 52.07 90)
 			(effects
 				(font
@@ -6309,7 +6592,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Shunt resistor, 10 mΩ, 2 W, current sensing"
+			(at 143.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/bourns-inc/CRF2512-FZ-R010ELF/6210990"
+			(at 143.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRF2512-FZ-R010ELF"
 			(at 143.51 52.07 0)
 			(effects
 				(font
@@ -6578,7 +6879,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buck regulator, 9 A"
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/microchip-technology/mic26903yjl-tr/2747223"
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MIC26903YJL-TR"
 			(at 104.14 93.98 0)
 			(effects
 				(font
@@ -6711,7 +7030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 204.978 119.38 90)
 			(effects
 				(font
@@ -6729,7 +7048,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 19.6 kΩ, 1 %"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/vishay-dale/CRCW060319K6FKEAC/7924247"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW060319K6FKEAC"
 			(at 203.2 119.38 0)
 			(effects
 				(font
@@ -6914,7 +7251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 195.2752 52.07 0)
 			(effects
 				(font
@@ -6932,7 +7269,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 25 V, X7R"
+			(at 194.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kemet/C0603C104K3RACTU/416044"
+			(at 194.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K3RACTU"
 			(at 194.31 48.26 0)
 			(effects
 				(font
@@ -6951,6 +7306,73 @@
 			(project ""
 				(path "/8dc22ddc-eb0a-4b80-a714-26a959e826d2/39a9e851-414a-49a1-b5c9-24c58b61cca2"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f41a30e-d4e8-4662-bcd4-21170b12abcf")
+		(property "Reference" "#PWR0137"
+			(at 166.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f420cf15-406c-4a41-9969-9aa973ab4df3")
+		)
+		(instances
+			(project "aircraft"
+				(path "/8dc22ddc-eb0a-4b80-a714-26a959e826d2/39a9e851-414a-49a1-b5c9-24c58b61cca2"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -7182,7 +7604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aircraft_Footprints:IND_PA4343_FOOTPRINT2_PUL"
 			(at 213.36 105.41 0)
 			(effects
 				(font
@@ -7200,8 +7622,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Power inductor, 10 µH, ≥15 A, low DCR (buck 9 A)"
 			(at 213.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/pulse-electronics/PA4343-103ANLT/7943151"
+			(at 213.36 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PA4343-103ANLT"
+			(at 213.36 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7377,7 +7817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "47u"
 			(at 67.31 111.7599 0)
 			(effects
 				(font
@@ -7386,7 +7826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 64.4652 114.3 0)
 			(effects
 				(font
@@ -7404,7 +7844,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 47 µF, 25 V, X5R"
+			(at 63.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/tdk-corporation/C3216X5R1E476M160AC/2792260"
+			(at 63.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3216X5R1E476M160AC"
 			(at 63.5 110.49 0)
 			(effects
 				(font
@@ -7589,7 +8047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 233.3752 114.3 0)
 			(effects
 				(font
@@ -7607,7 +8065,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 4.7 nF, C0G/NP0"
+			(at 232.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kemet/C0603C472F3GACTU/2200826"
+			(at 232.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C472F3GACTU"
 			(at 232.41 110.49 0)
 			(effects
 				(font
@@ -7715,7 +8191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "100u"
 			(at 56.134 111.76 0)
 			(effects
 				(font
@@ -7724,7 +8200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
 			(at 54.3052 114.3 0)
 			(effects
 				(font
@@ -7742,7 +8218,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Aluminum polymer capacitor, 100 µF, 35 V, low ESR (input bulk)"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kemet/A768EB107M1ELAS036/13420071"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "A768EB107M1ELAS036"
 			(at 53.34 110.49 0)
 			(effects
 				(font
@@ -7852,7 +8346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 207.01 111.7599 0)
 			(effects
 				(font
@@ -7861,7 +8355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 204.1652 114.3 0)
 			(effects
 				(font
@@ -7879,7 +8373,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 25 V, X7R"
+			(at 203.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kemet/C0603C104K3RACTU/416044"
+			(at 203.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K3RACTU"
 			(at 203.2 110.49 0)
 			(effects
 				(font
@@ -7929,7 +8441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 146.05 160.02 0)
 			(effects
 				(font
@@ -7947,7 +8459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green LED, SMD"
 			(at 146.05 160.02 0)
 			(effects
 				(font
@@ -7957,6 +8469,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/liteon/LTST-S270KGKT/386893"
+			(at 146.05 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-S270KGKT"
 			(at 146.05 160.02 0)
 			(effects
 				(font
@@ -7999,7 +8529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "47u"
 			(at 259.08 111.7599 0)
 			(effects
 				(font
@@ -8008,7 +8538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 256.2352 114.3 0)
 			(effects
 				(font
@@ -8026,7 +8556,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 47 µF, 25 V, X5R"
+			(at 255.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/tdk-corporation/C3216X5R1E476M160AC/2792260"
+			(at 255.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3216X5R1E476M160AC"
 			(at 255.27 110.49 0)
 			(effects
 				(font
@@ -8069,7 +8617,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 194.31 111.7599 0)
 			(effects
 				(font
@@ -8078,7 +8626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 191.4652 114.3 0)
 			(effects
 				(font
@@ -8096,7 +8644,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 25 V, X7R"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kemet/C0603C104K3RACTU/416044"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K3RACTU"
 			(at 190.5 110.49 0)
 			(effects
 				(font
@@ -8166,7 +8732,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 330 Ω, 5 %"
+			(at 149.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603JR-07330RL/726769"
+			(at 149.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-07330RL"
 			(at 149.86 163.83 0)
 			(effects
 				(font
@@ -8236,7 +8820,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO, 3.3 V / 2 A"
+			(at 127 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stmicroelectronics/ld39200pu33r/5131797"
+			(at 127 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LD39200PU33R"
 			(at 127 167.64 0)
 			(effects
 				(font
@@ -8370,7 +8972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 65.7352 168.91 0)
 			(effects
 				(font
@@ -8388,7 +8990,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 10 µF, 25 V, X7R"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL21B106KPQNNNE/3887422"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B106KPQNNNE"
 			(at 64.77 165.1 0)
 			(effects
 				(font

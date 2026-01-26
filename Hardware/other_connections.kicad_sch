@@ -2630,8 +2630,8 @@
 		(uuid a262b604-910e-4e1e-9176-1d3c3c88309b)
 	)
 	(rectangle
-		(start 24.13 34.29)
-		(end 74.93 99.06)
+		(start 22.86 34.29)
+		(end 76.2 90.17)
 		(stroke
 			(width 0)
 			(type dash_dot)
@@ -2679,7 +2679,7 @@
 	)
 	(text "FCU - NU (GPIOs)"
 		(exclude_from_sim no)
-		(at 33.274 101.092 0)
+		(at 33.528 92.202 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3251,16 +3251,6 @@
 			(type default)
 		)
 		(uuid "536953b4-deb7-43c9-9c70-d03e96ae6492")
-	)
-	(wire
-		(pts
-			(xy 54.61 95.25) (xy 62.23 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56018be9-e406-4945-afbb-7dd1470fe48b")
 	)
 	(wire
 		(pts
@@ -4012,17 +4002,7 @@
 		)
 		(uuid "fd1ed51e-b276-4327-9db5-45f1848a2b2a")
 	)
-	(wire
-		(pts
-			(xy 38.1 95.25) (xy 46.99 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fedc490c-cb26-4649-abf9-e724b9bbfc15")
-	)
-	(global_label "FCU_GPIOD"
+	(global_label "FCU_GPIO_D"
 		(shape input)
 		(at 38.1 68.58 180)
 		(fields_autoplaced yes)
@@ -4034,7 +4014,7 @@
 		)
 		(uuid "06858600-8936-4575-8f84-1b51326dc922")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.7128 68.58 0)
+			(at 23.7452 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4112,7 @@
 			)
 		)
 	)
-	(global_label "FCU_GPIOF"
+	(global_label "FCU_GPIO_F"
 		(shape input)
 		(at 38.1 86.36 180)
 		(fields_autoplaced yes)
@@ -4144,7 +4124,7 @@
 		)
 		(uuid "35fdce78-41df-4952-b357-d3841becf932")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.8942 86.36 0)
+			(at 23.9266 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4134,7 @@
 			)
 		)
 	)
-	(global_label "NU_GPIOC"
+	(global_label "NU_GPIO_C"
 		(shape input)
 		(at 62.23 59.69 0)
 		(fields_autoplaced yes)
@@ -4166,7 +4146,7 @@
 		)
 		(uuid "360c42c7-c000-4f13-b516-94258db56cfd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.5891 59.69 0)
+			(at 75.5567 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4200,7 @@
 			)
 		)
 	)
-	(global_label "FCU_GPIOE"
+	(global_label "FCU_GPIO_E"
 		(shape input)
 		(at 38.1 77.47 180)
 		(fields_autoplaced yes)
@@ -4232,7 +4212,7 @@
 		)
 		(uuid "54eefe75-86bd-4b8d-b7b6-12e71ae71f20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.8338 77.47 0)
+			(at 23.8662 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4222,7 @@
 			)
 		)
 	)
-	(global_label "FCU_GPIOA"
+	(global_label "FCU_GPIO_A"
 		(shape input)
 		(at 38.1 41.91 180)
 		(fields_autoplaced yes)
@@ -4254,7 +4234,7 @@
 		)
 		(uuid "5bf52cd8-20d4-4e74-9bd1-9bf268f00eed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.8942 41.91 0)
+			(at 23.9266 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4332,7 @@
 			)
 		)
 	)
-	(global_label "NU_GPIOA"
+	(global_label "NU_GPIO_A"
 		(shape input)
 		(at 62.23 41.91 0)
 		(fields_autoplaced yes)
@@ -4364,7 +4344,7 @@
 		)
 		(uuid "75e519da-c546-42c3-a550-6ab319821bf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.4077 41.91 0)
+			(at 75.3753 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,7 +4354,7 @@
 			)
 		)
 	)
-	(global_label "NU_GPIOB"
+	(global_label "NU_GPIO_B"
 		(shape input)
 		(at 62.23 50.8 0)
 		(fields_autoplaced yes)
@@ -4386,7 +4366,7 @@
 		)
 		(uuid "783f4e0e-43e7-4b11-9c64-ee586e379263")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.5891 50.8 0)
+			(at 75.5567 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,7 +4398,7 @@
 			)
 		)
 	)
-	(global_label "NU_I2C2_SCL"
+	(global_label "NU_I2C1_SCL"
 		(shape input)
 		(at 63.5 127 0)
 		(fields_autoplaced yes)
@@ -4528,28 +4508,6 @@
 			)
 		)
 	)
-	(global_label "FCU_GPIOG"
-		(shape input)
-		(at 38.1 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ab49a541-0a9b-4ff2-9a2d-40bd3e9d3460")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.7128 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NU_UART2_TX"
 		(shape input)
 		(at 257.81 48.26 0)
@@ -4594,7 +4552,7 @@
 			)
 		)
 	)
-	(global_label "NU_GPIOE"
+	(global_label "NU_GPIO_E"
 		(shape input)
 		(at 62.23 77.47 0)
 		(fields_autoplaced yes)
@@ -4606,7 +4564,7 @@
 		)
 		(uuid "aec3b0bc-6927-4518-87f3-43aaf5880161")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.4681 77.47 0)
+			(at 75.4357 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4574,7 @@
 			)
 		)
 	)
-	(global_label "NU_I2C2_SDA"
+	(global_label "NU_I2C1_SDA"
 		(shape input)
 		(at 63.5 118.11 0)
 		(fields_autoplaced yes)
@@ -4660,7 +4618,7 @@
 			)
 		)
 	)
-	(global_label "NU_GPIOD"
+	(global_label "NU_GPIO_D"
 		(shape input)
 		(at 62.23 68.58 0)
 		(fields_autoplaced yes)
@@ -4672,7 +4630,7 @@
 		)
 		(uuid "ce44ce99-8c04-4264-9b01-2b9bdb464844")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.5891 68.58 0)
+			(at 75.5567 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +4640,7 @@
 			)
 		)
 	)
-	(global_label "NU_GPIOF"
+	(global_label "NU_GPIO_F"
 		(shape input)
 		(at 62.23 86.36 0)
 		(fields_autoplaced yes)
@@ -4694,7 +4652,7 @@
 		)
 		(uuid "cf2798a5-c0c1-4425-a465-23a5e9e5cd36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.4077 86.36 0)
+			(at 75.3753 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,7 +4662,7 @@
 			)
 		)
 	)
-	(global_label "FCU_GPIOC"
+	(global_label "FCU_GPIO_C"
 		(shape input)
 		(at 38.1 59.69 180)
 		(fields_autoplaced yes)
@@ -4716,7 +4674,7 @@
 		)
 		(uuid "d2ae43a2-012a-4b60-9ed7-53f27174ece4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.7128 59.69 0)
+			(at 23.7452 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,28 +4719,6 @@
 		(uuid "d9fd6245-ec50-4653-a41d-7eedc2e1d4a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.4409 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NU_GPIOG"
-		(shape input)
-		(at 62.23 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "da4fed04-ee7a-4cd4-9ef1-90b2eba04cdf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.5891 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,7 +4794,7 @@
 			)
 		)
 	)
-	(global_label "FCU_GPIOB"
+	(global_label "FCU_GPIO_B"
 		(shape input)
 		(at 38.1 50.8 180)
 		(fields_autoplaced yes)
@@ -4870,7 +4806,7 @@
 		)
 		(uuid "ee1f3502-fcf2-4088-bbb8-f3a30cf4353a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.7128 50.8 0)
+			(at 23.7452 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 168.91 117.348 90)
 			(effects
 				(font
@@ -5100,8 +5036,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 22 Ω, 1 %"
 			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603FR-0722RL/727055"
+			(at 168.91 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722RL"
+			(at 168.91 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +5103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 50.8 61.468 90)
 			(effects
 				(font
@@ -5167,8 +5121,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10 Ω, 1 %"
 			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stackpole-electronics-inc/RMCF0603FT10R0/1761152"
+			(at 50.8 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10R0"
+			(at 50.8 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5339,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST-PHD connector, 10 pins"
+			(at 146.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/jst-sales-america-inc/B10B-PHDSS/926668"
+			(at 146.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B10B-PHDSS"
 			(at 146.05 154.94 0)
 			(effects
 				(font
@@ -5535,6 +5525,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/molex/0473461001/4693257"
+			(at 212.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0473461001"
+			(at 212.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "1eadcdf2-3875-4bf2-ae3b-96afb60104bd")
 		)
@@ -5676,6 +5684,24 @@
 		)
 		(property "Description" "Jumper, 3-pole, both open"
 			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" ""
+			(at 105.41 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 105.41 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +6039,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST-PH connector, 2 pins"
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626"
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "S2B-PH-K-S"
 			(at 113.03 106.68 0)
 			(effects
 				(font
@@ -6081,7 +6125,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST-PHD connector, 10 pins"
+			(at 107.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/jst-sales-america-inc/B10B-PHDSS/926668"
+			(at 107.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B10B-PHDSS"
 			(at 107.95 154.94 0)
 			(effects
 				(font
@@ -6183,6 +6245,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Link" ""
+			(at 247.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CH330N"
+			(at 247.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ca4c242-dbcf-4ac3-8bf3-19a8f19d1035")
 		)
@@ -6260,7 +6340,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, 40 V, 350 mA"
+			(at 238.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/evvo/sd103aws/21407183"
+			(at 238.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SD103AWS"
 			(at 238.76 99.06 0)
 			(effects
 				(font
@@ -6337,6 +6435,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Link" ""
+			(at 168.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 168.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a4488aa-451d-44f8-8a0c-a96c6877d8c2")
 		)
@@ -6396,7 +6512,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, 40 V, 350 mA"
+			(at 153.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/evvo/sd103aws/21407183"
+			(at 153.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SD103AWS"
 			(at 153.67 35.56 0)
 			(effects
 				(font
@@ -6445,7 +6579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 50.8 88.138 90)
 			(effects
 				(font
@@ -6463,8 +6597,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10 Ω, 1 %"
 			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stackpole-electronics-inc/RMCF0603FT10R0/1761152"
+			(at 50.8 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10R0"
+			(at 50.8 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 179.07 36.83 0)
 			(effects
 				(font
@@ -6732,7 +6884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green LED, SMD"
 			(at 179.07 36.83 0)
 			(effects
 				(font
@@ -6743,6 +6895,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/liteon/LTST-S270KGKT/386893"
+			(at 179.07 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-S270KGKT"
+			(at 179.07 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6811,7 +6981,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 25 V, X7R"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kemet/C0603C104K8RACTU/411094"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K8RACTU"
 			(at 160.02 62.23 0)
 			(effects
 				(font
@@ -6879,7 +7067,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, 40 V, 350 mA"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/evvo/sd103aws/21407183"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SD103AWS"
 			(at 168.91 99.06 0)
 			(effects
 				(font
@@ -6928,7 +7134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 50.8 43.688 90)
 			(effects
 				(font
@@ -6946,8 +7152,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10 Ω, 1 %"
 			(at 50.8 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stackpole-electronics-inc/RMCF0603FT10R0/1761152"
+			(at 50.8 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10R0"
+			(at 50.8 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7014,7 +7238,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, 40 V, 350 mA"
+			(at 227.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/evvo/sd103aws/21407183"
+			(at 227.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SD103AWS"
 			(at 227.33 34.29 0)
 			(effects
 				(font
@@ -7063,7 +7305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 184.15 100.838 90)
 			(effects
 				(font
@@ -7081,8 +7323,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "Ferrite bead, 600 Ω @ 100 MHz, 3 A"
 			(at 184.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/laird-signal-integrity-products/HZ0805E601R-10/806638"
+			(at 184.15 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HZ0805E601R-10"
+			(at 184.15 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,7 +7390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 238.76 109.728 90)
 			(effects
 				(font
@@ -7148,8 +7408,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 22 Ω, 1 %"
 			(at 238.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603FR-0722RL/727055"
+			(at 238.76 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722RL"
+			(at 238.76 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,73 +7445,6 @@
 			(project "aircraft"
 				(path "/8dc22ddc-eb0a-4b80-a714-26a959e826d2/f68bfd02-e75f-45be-869e-2735da76252c"
 					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8cf008e9-7277-49fb-a0f0-83baa7334ad3")
-		(property "Reference" "R45"
-			(at 50.8 90.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 50.8 92.964 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 50.8 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 50.8 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b0dd306d-3309-4db6-a807-a3e8457a4371")
-		)
-		(pin "1"
-			(uuid "a582ca7e-ed79-479e-b051-0acea75daf16")
-		)
-		(instances
-			(project "aircraft"
-				(path "/8dc22ddc-eb0a-4b80-a714-26a959e826d2/f68bfd02-e75f-45be-869e-2735da76252c"
-					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -7332,7 +7543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 252.73 35.56 0)
 			(effects
 				(font
@@ -7350,7 +7561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green LED, SMD"
 			(at 252.73 35.56 0)
 			(effects
 				(font
@@ -7361,6 +7572,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 252.73 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/liteon/LTST-S270KGKT/386893"
+			(at 252.73 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-S270KGKT"
+			(at 252.73 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7408,7 +7637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 238.76 117.348 90)
 			(effects
 				(font
@@ -7426,8 +7655,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 22 Ω, 1 %"
 			(at 238.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603FR-0722RL/727055"
+			(at 238.76 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722RL"
+			(at 238.76 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,6 +7809,24 @@
 			)
 		)
 		(property "Description" "USB serial converter, UART, SOIC-8"
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" ""
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CH330N"
 			(at 173.99 49.53 0)
 			(effects
 				(font
@@ -7723,6 +7988,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/molex/0473461001/4693257"
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0473461001"
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "2dda3dfb-2c6a-4768-b9ef-e2155b2e1d45")
 		)
@@ -7775,7 +8058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 49.53 128.778 90)
 			(effects
 				(font
@@ -7793,8 +8076,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0 Ω (jumper)"
 			(at 49.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603JR-070RL/726675"
+			(at 49.53 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-070RL"
+			(at 49.53 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7861,8 +8162,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 560 Ω, 1 %"
 			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stackpole-electronics-inc/RMCF0603FT560R/1760872"
+			(at 182.88 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT560R"
+			(at 182.88 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7976,7 +8295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 254 100.838 90)
 			(effects
 				(font
@@ -7994,8 +8313,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "Ferrite bead, 600 Ω @ 100 MHz, 3 A"
 			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/laird-signal-integrity-products/HZ0805E601R-10/806638"
+			(at 254 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HZ0805E601R-10"
+			(at 254 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8043,7 +8380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 163.83 37.338 90)
 			(effects
 				(font
@@ -8061,8 +8398,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "Ferrite bead, 600 Ω @ 100 MHz, 3 A"
 			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/laird-signal-integrity-products/HZ0805E601R-10/806638"
+			(at 163.83 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HZ0805E601R-10"
+			(at 163.83 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +8465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 168.91 109.728 90)
 			(effects
 				(font
@@ -8128,8 +8483,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 22 Ω, 1 %"
 			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603FR-0722RL/727055"
+			(at 168.91 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722RL"
+			(at 168.91 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8265,7 +8638,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 25 V, X7R"
+			(at 233.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kemet/C0603C104K8RACTU/411094"
+			(at 233.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K8RACTU"
 			(at 233.68 60.96 0)
 			(effects
 				(font
@@ -8334,6 +8725,24 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 138.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/molex/0473461001/4693257"
+			(at 138.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0473461001"
 			(at 138.43 46.99 0)
 			(effects
 				(font
@@ -8527,7 +8936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 50.8 79.248 90)
 			(effects
 				(font
@@ -8545,8 +8954,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10 Ω, 1 %"
 			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stackpole-electronics-inc/RMCF0603FT10R0/1761152"
+			(at 50.8 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10R0"
+			(at 50.8 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,6 +9049,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Link" ""
+			(at 238.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 238.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "475d0501-de26-4ebc-8bfe-f650dbe265f0")
 		)
@@ -8680,8 +9125,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 25 V, X7R"
 			(at 262.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kemet/C0603C104K8RACTU/411094"
+			(at 262.89 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K8RACTU"
+			(at 262.89 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8729,7 +9192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 238.76 124.968 90)
 			(effects
 				(font
@@ -8747,8 +9210,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 560 Ω, 1 %"
 			(at 238.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stackpole-electronics-inc/RMCF0603FT560R/1760872"
+			(at 238.76 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT560R"
+			(at 238.76 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,8 +9295,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 25 V, X7R"
 			(at 189.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kemet/C0603C104K8RACTU/411094"
+			(at 189.23 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K8RACTU"
+			(at 189.23 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,7 +9429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 49.53 119.888 90)
 			(effects
 				(font
@@ -8948,8 +9447,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0 Ω (jumper)"
 			(at 49.53 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603JR-070RL/726675"
+			(at 49.53 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-070RL"
+			(at 49.53 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9064,7 +9581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 49.53 149.098 90)
 			(effects
 				(font
@@ -9082,8 +9599,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10 Ω, 1 %"
 			(at 49.53 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stackpole-electronics-inc/RMCF0603FT10R0/1761152"
+			(at 49.53 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10R0"
+			(at 49.53 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9265,7 +9800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 49.53 157.988 90)
 			(effects
 				(font
@@ -9283,8 +9818,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10 Ω, 1 %"
 			(at 49.53 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stackpole-electronics-inc/RMCF0603FT10R0/1761152"
+			(at 49.53 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10R0"
+			(at 49.53 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,7 +9885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 50.8 52.578 90)
 			(effects
 				(font
@@ -9350,8 +9903,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10 Ω, 1 %"
 			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stackpole-electronics-inc/RMCF0603FT10R0/1761152"
+			(at 50.8 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10R0"
+			(at 50.8 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9399,7 +9970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 237.49 36.068 90)
 			(effects
 				(font
@@ -9417,8 +9988,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "Ferrite bead, 600 Ω @ 100 MHz, 3 A"
 			(at 237.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/laird-signal-integrity-products/HZ0805E601R-10/806638"
+			(at 237.49 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HZ0805E601R-10"
+			(at 237.49 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9532,7 +10121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 50.8 70.358 90)
 			(effects
 				(font
@@ -9550,8 +10139,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10 Ω, 1 %"
 			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stackpole-electronics-inc/RMCF0603FT10R0/1761152"
+			(at 50.8 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10R0"
+			(at 50.8 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,8 +10224,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 560 Ω, 1 %"
 			(at 256.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stackpole-electronics-inc/RMCF0603FT560R/1760872"
+			(at 256.54 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT560R"
+			(at 256.54 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9666,7 +10291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 168.91 124.968 90)
 			(effects
 				(font
@@ -9684,8 +10309,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 560 Ω, 1 %"
 			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stackpole-electronics-inc/RMCF0603FT560R/1760872"
+			(at 168.91 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT560R"
+			(at 168.91 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9753,6 +10396,24 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/molex/0473461001/4693257"
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0473461001"
 			(at 149.86 104.14 0)
 			(effects
 				(font

@@ -10,113 +10,6 @@
 		(company "Breno Soares Alves")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3396,18 +3289,6 @@
 		(uuid a652def1-621f-43bf-8f21-511e89607470)
 	)
 	(rectangle
-		(start 129.54 128.27)
-		(end 148.59 152.4)
-		(stroke
-			(width 0)
-			(type dash_dot)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ed53cc79-8f87-45af-8d70-9d7939f9fb28)
-	)
-	(rectangle
 		(start 163.83 121.92)
 		(end 200.66 158.75)
 		(stroke
@@ -3488,16 +3369,6 @@
 			)
 		)
 		(uuid "720120f0-53c2-46f9-8936-4062e4d6ef7a")
-	)
-	(text "I2C1 Test Point"
-		(exclude_from_sim no)
-		(at 137.414 154.178 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8a577f44-75af-4849-b416-b98f65dc9e2d")
 	)
 	(text "AN4488 - Getting started with STM32F4xxxx MCU hardware development\nAN2606 - Introduction to system memory boot mode on STM32 MCUs\nAN2867 - Guidelines for oscillator design on STM8AF/AL/S and STM32 MCUs/MPUs"
 		(exclude_from_sim no)
@@ -4775,7 +4646,7 @@
 			)
 		)
 	)
-	(global_label "NU_LED4"
+	(global_label "NU_LED_4"
 		(shape input)
 		(at 166.37 134.62 90)
 		(fields_autoplaced yes)
@@ -4787,34 +4658,12 @@
 		)
 		(uuid "13ba08a3-37be-4aa5-a744-c023f0b2daf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.37 123.3496 90)
+			(at 166.37 122.382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NU_I2C1_SCL"
-		(shape input)
-		(at 140.97 134.62 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "151088cf-489a-45dc-ac7f-33d38c855a41")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 150.0028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4951,7 +4800,7 @@
 			)
 		)
 	)
-	(global_label "NU_LED3"
+	(global_label "NU_LED_3"
 		(shape input)
 		(at 175.26 134.62 90)
 		(fields_autoplaced yes)
@@ -4963,7 +4812,7 @@
 		)
 		(uuid "26ec80a1-a3d4-4cb6-b03e-7383bff2f570")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 123.3496 90)
+			(at 175.26 122.382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,28 +4906,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NU_I2C1_SDA"
-		(shape input)
-		(at 132.08 134.62 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a92f067-334a-40e3-aafd-3dde8d5357df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 150.0633 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5413,7 +5240,7 @@
 			)
 		)
 	)
-	(global_label "NU_LED1"
+	(global_label "NU_LED_1"
 		(shape input)
 		(at 193.04 134.62 90)
 		(fields_autoplaced yes)
@@ -5425,7 +5252,7 @@
 		)
 		(uuid "83843b3e-06fe-45b1-a003-a350dc7e2424")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 123.3496 90)
+			(at 193.04 122.382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +5834,7 @@
 			)
 		)
 	)
-	(global_label "NU_LED2"
+	(global_label "NU_LED_2"
 		(shape input)
 		(at 184.15 134.62 90)
 		(fields_autoplaced yes)
@@ -6019,7 +5846,7 @@
 		)
 		(uuid "f86654da-a4cd-478c-9a9c-2f9ed8c91bf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.15 123.3496 90)
+			(at 184.15 122.382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,7 +5901,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 4.7 kΩ, 1 %"
+			(at 229.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/panasonic-electronic-components/ERJ-3EKF4701V/1746419"
+			(at 229.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3EKF4701V"
 			(at 229.87 139.7 0)
 			(effects
 				(font
@@ -6210,7 +6055,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 10 V, X7R"
+			(at 191.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
+			(at 191.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KP5NNNC"
 			(at 191.77 33.02 0)
 			(effects
 				(font
@@ -6684,6 +6547,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/c-k/pcm12smtbr/21395124"
+			(at 186.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PCM12SMTR"
+			(at 186.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "dfedff44-f96c-4a5c-bbbe-36166d2536fe")
 		)
@@ -6748,7 +6629,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 1 µF, 50 V, X7R"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/w%C3%BCrth-elektronik/885012005007/5453280"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "885012005007"
 			(at 147.32 72.39 0)
 			(effects
 				(font
@@ -6817,7 +6716,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 10 V, X7R"
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KP5NNNC"
 			(at 161.29 33.02 0)
 			(effects
 				(font
@@ -6869,7 +6786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 166.37 138.43 0)
 			(effects
 				(font
@@ -6887,7 +6804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Red LED, SMD"
 			(at 166.37 138.43 0)
 			(effects
 				(font
@@ -6898,6 +6815,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 166.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/liteon/LTST-C171KRKT/386801"
+			(at 166.37 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C171KRKT"
+			(at 166.37 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,7 +6883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 141.9352 36.83 0)
 			(effects
 				(font
@@ -6966,7 +6901,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Tantalum capacitor, 10 µF, 10 V"
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kyocera-avx/TAJA106K010TNJ/7566970"
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TAJA106K010TNJ"
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -7101,7 +7054,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 10 V, X7R"
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KP5NNNC"
 			(at 181.61 33.02 0)
 			(effects
 				(font
@@ -7170,7 +7141,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 4.7 kΩ, 1 %"
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/panasonic-electronic-components/ERJ-3EKF4701V/1746419"
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3EKF4701V"
 			(at 237.49 139.7 0)
 			(effects
 				(font
@@ -7240,7 +7229,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 2.2 µF, 10 V, X7R"
+			(at 39.37 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL10B225KP8NNNC/3886792"
+			(at 39.37 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B225KP8NNNC"
 			(at 39.37 140.97 0)
 			(effects
 				(font
@@ -7309,7 +7316,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 10 V, X7R"
+			(at 201.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
+			(at 201.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KP5NNNC"
 			(at 201.93 33.02 0)
 			(effects
 				(font
@@ -7361,7 +7386,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 184.15 138.43 0)
 			(effects
 				(font
@@ -7379,7 +7404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Yellow LED, SMD"
 			(at 184.15 138.43 0)
 			(effects
 				(font
@@ -7390,6 +7415,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 184.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/liteon/LTST-C171YKT/386807"
+			(at 184.15 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C171YKT"
+			(at 184.15 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7500,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 4.7 kΩ, 1 %"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/panasonic-electronic-components/ERJ-3EKF4701V/1746419"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3EKF4701V"
 			(at 252.73 139.7 0)
 			(effects
 				(font
@@ -7525,8 +7586,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 620 Ω, 1 %"
 			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603FR-07620RL/727337"
+			(at 173.99 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07620RL"
+			(at 173.99 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7575,7 +7654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Aircraft_Footprints:SW_SKRPACE010"
+		(property "Footprint" "Aircraft_Footprints:SW4_PTS815 SJM 250 SMTR LFS_CNK"
 			(at 238.76 88.9 0)
 			(effects
 				(font
@@ -7594,6 +7673,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, symbol, four pins"
+			(at 238.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/c-k/PTS815SJM250SMTRLFS/9947846"
+			(at 238.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PTS815SJM250SMTRLFS"
 			(at 238.76 96.52 0)
 			(effects
 				(font
@@ -7668,7 +7765,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 4.7 kΩ, 1 %"
+			(at 245.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/panasonic-electronic-components/ERJ-3EKF4701V/1746419"
+			(at 245.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3EKF4701V"
 			(at 245.11 139.7 0)
 			(effects
 				(font
@@ -7687,73 +7802,6 @@
 			(project "aircraft"
 				(path "/8dc22ddc-eb0a-4b80-a714-26a959e826d2/fc11477c-3333-4f98-8873-4701516b0387"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 132.08 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b54f9f0-ed70-4d15-8937-d3b9fc0a3b48")
-		(property "Reference" "TP1"
-			(at 134.62 130.0479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "I2C1"
-			(at 134.62 132.5879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 137.16 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc58d03a-8f31-4f16-acca-4ea8343de1a5")
-		)
-		(instances
-			(project "aircraft"
-				(path "/8dc22ddc-eb0a-4b80-a714-26a959e826d2/fc11477c-3333-4f98-8873-4701516b0387"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7804,7 +7852,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 10 V, X7R"
+			(at 212.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
+			(at 212.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KP5NNNC"
 			(at 212.09 33.02 0)
 			(effects
 				(font
@@ -7876,6 +7942,24 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 51 GPIO, LQFP64"
+			(at 69.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stmicroelectronics/stm32f405rgt6/2754208"
+			(at 69.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STM32F405RGT6"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -8198,7 +8282,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 330 Ω, 5 %"
+			(at 166.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603JR-07330RL/726769"
+			(at 166.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-07330RL"
 			(at 166.37 146.05 0)
 			(effects
 				(font
@@ -8268,7 +8370,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 10 V, X7R"
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KP5NNNC"
 			(at 241.3 58.42 0)
 			(effects
 				(font
@@ -8320,7 +8440,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 175.26 138.43 0)
 			(effects
 				(font
@@ -8338,7 +8458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green LED, SMD"
 			(at 175.26 138.43 0)
 			(effects
 				(font
@@ -8349,6 +8469,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 175.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/liteon/LTST-C170GKT/269226"
+			(at 175.26 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C170GKT"
+			(at 175.26 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,7 +8622,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 2.2 µF, 10 V, X7R"
+			(at 29.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL10B225KP8NNNC/3886792"
+			(at 29.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B225KP8NNNC"
 			(at 29.21 140.97 0)
 			(effects
 				(font
@@ -8600,7 +8756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 232.41 56.388 90)
 			(effects
 				(font
@@ -8618,8 +8774,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "Ferrite bead, 600 Ω @ 100 MHz, 3 A"
 			(at 232.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/laird-signal-integrity-products/HZ0805E601R-10/806638"
+			(at 232.41 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HZ0805E601R-10"
+			(at 232.41 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8688,7 +8862,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Tantalum capacitor, 1 µF, 10 V"
+			(at 252.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kemet/T491A105K010AT/2336175"
+			(at 252.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T491A105K010AT"
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -8758,7 +8950,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 25 V, X7R"
+			(at 248.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/kemet/C0603C104K8RACTU/411094"
+			(at 248.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K8RACTU"
 			(at 248.92 97.79 0)
 			(effects
 				(font
@@ -8828,7 +9038,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 330 Ω, 5 %"
+			(at 184.15 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603JR-07330RL/726769"
+			(at 184.15 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-07330RL"
 			(at 184.15 146.05 0)
 			(effects
 				(font
@@ -8897,7 +9125,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 10 V, X7R"
+			(at 151.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
+			(at 151.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KP5NNNC"
 			(at 151.13 33.02 0)
 			(effects
 				(font
@@ -9014,7 +9260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 193.04 138.43 0)
 			(effects
 				(font
@@ -9032,7 +9278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Blue LED, SMD"
 			(at 193.04 138.43 0)
 			(effects
 				(font
@@ -9050,6 +9296,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/liteon/LTST-C171TBKT/388528"
+			(at 193.04 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C171TBKT"
+			(at 193.04 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2f456489-f7b7-4cea-908a-9a64792fc98b")
 		)
@@ -9060,73 +9324,6 @@
 			(project "aircraft"
 				(path "/8dc22ddc-eb0a-4b80-a714-26a959e826d2/fc11477c-3333-4f98-8873-4701516b0387"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 140.97 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d98a4fef-0f19-4aad-a465-1451f32907cb")
-		(property "Reference" "TP2"
-			(at 143.51 130.0479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "I2C1"
-			(at 143.51 132.5879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 146.05 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 140.97 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24fb0a34-5a62-4ab4-91f0-0b1c0d425e60")
-		)
-		(instances
-			(project "aircraft"
-				(path "/8dc22ddc-eb0a-4b80-a714-26a959e826d2/fc11477c-3333-4f98-8873-4701516b0387"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -9175,7 +9372,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" "Crystal, 25 MHz, Four pin crystal, GND on pins 2 and 4"
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/abracon-llc/abm8g-25-000mhz-b4y-t3/2637917"
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ABM8G-25.000MHZ-B4Y-T3"
 			(at 157.48 66.04 0)
 			(effects
 				(font
@@ -9251,7 +9466,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 1 µF, 50 V, X7R"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/w%C3%BCrth-elektronik/885012005007/5453280"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "885012005007"
 			(at 167.64 72.39 0)
 			(effects
 				(font
@@ -9321,7 +9554,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 330 Ω, 5 %"
+			(at 175.26 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603JR-07330RL/726769"
+			(at 175.26 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-07330RL"
 			(at 175.26 146.05 0)
 			(effects
 				(font
@@ -9458,7 +9709,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 560 Ω, 1 %"
+			(at 193.04 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/stackpole-electronics-inc/RMCF0603FT560R/1760872"
+			(at 193.04 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT560R"
 			(at 193.04 146.05 0)
 			(effects
 				(font
@@ -9591,8 +9860,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10 kΩ, 1 %, 0.1 W"
 			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 175.26 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 175.26 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9660,7 +9947,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 100 nF, 10 V, X7R"
+			(at 171.45 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Link" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
+			(at 171.45 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KP5NNNC"
 			(at 171.45 33.02 0)
 			(effects
 				(font
