@@ -4156,7 +4156,7 @@
 			)
 		)
 	)
-	(global_label "FCU_USB_OTG_FS_DP"
+	(global_label "FCU_USB_OTG_FS_D+"
 		(shape input)
 		(at 175.26 107.95 0)
 		(fields_autoplaced yes)
@@ -4168,7 +4168,7 @@
 		)
 		(uuid "3e095346-4b11-4283-842a-ad2a1b84a0f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.0209 107.95 0)
+			(at 198.3233 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +4684,7 @@
 			)
 		)
 	)
-	(global_label "FCU_USB_OTG_FS_DM"
+	(global_label "FCU_USB_OTG_FS_D-"
 		(shape input)
 		(at 175.26 115.57 0)
 		(fields_autoplaced yes)
@@ -4696,7 +4696,7 @@
 		)
 		(uuid "d5e51f34-266c-4fb5-b84e-99fded134bdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.2023 115.57 0)
+			(at 198.3233 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
